@@ -11,11 +11,9 @@ Permissions:
 None. Defaults to OP's.
 
 Default configuration:
-confirm-message: '&aYou are now a(n) %rank%!'
-# When a user successfully is ranked, send them the above message
-# Please have the ability to use ChatColors in the message
+```confirm-message: '&aYou are now a(n) %rank%!'
 ranks:
- newbie-to-member: #This is the "name" of the change, used as an argument in /crank
+ newbie-to-member:
     from: newbie
     to: member
     commands:
@@ -26,4 +24,4 @@ ranks:
     to: builder
     commands:
     - give %player% 1 64
-    - say %player% is now a Builder!
+    - say %player% is now a Builder!```
