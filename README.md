@@ -7,6 +7,7 @@ Download: https://github.com/downloads/chaseoes/CautiousRank/CautiousRank.jar
 
 ### Commands:
 /crank <rank as defined in the configuration> <player>
+
 /crank reload
 
 ### Permissions:
